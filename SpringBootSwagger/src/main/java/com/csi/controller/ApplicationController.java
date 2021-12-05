@@ -20,4 +20,10 @@ public class ApplicationController {
         return "Welcome to Full stack";
     }
 
+    @GetMapping("new")
+    public String csiServices()
+    {
+        return "APPLICATION DEVELOPMENT";
+    }
+
 }
