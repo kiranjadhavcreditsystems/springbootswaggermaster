@@ -14,4 +14,10 @@ public class ApplicationController {
        return "WELCOME TO CSI PUNE";
     }
 
+    @GetMapping("/fullstack")
+    public String heyHello()
+    {
+        return "Welcome to Full stack";
+    }
+
 }
